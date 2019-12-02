@@ -1,6 +1,6 @@
 {
   "name": "@engineerapart/aws-global-dynamodb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Deploy Global DynamoDB tables with ease via serverless components.",
   "main": "serverless.js",
   "scripts": {
@@ -12,12 +12,13 @@
     "Serverless"
   ],
   "author": "Daniel Conde Marin <danielconde9@gmail.com>",
+  "contributors": ["Barry Steyn <barry@engineerapart.com>"],
   "license": "MIT",
   "devDependencies": {
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "@serverless/aws-dynamodb": "git+https://github.com/barrysteyn/aws-dynamodb.git#global-tables-supported-with-indexes_barry-branch",
+    "@engineerapart/aws-dynamodb": "0.0.4",
     "@serverless/core": "^1.0.0",
     "ramda": "^0.26.1"
   }
