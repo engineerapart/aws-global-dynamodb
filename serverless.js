@@ -22,7 +22,7 @@ class GlobalDynamoDBTableComponent extends Component {
     attributeDefinitions,
     keySchema,
     localSecondaryIndexes,
-    globalSecondaryIndexes
+    globalSecondaryIndexes = []
   ) {
     const createTables = regions.map(async region => {
       const dynamodb = await this.load(

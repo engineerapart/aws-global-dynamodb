@@ -1,6 +1,6 @@
 {
   "name": "@engineerapart/aws-global-dynamodb",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Deploy Global DynamoDB tables with ease via serverless components.",
   "main": "serverless.js",
   "publishConfig": {
