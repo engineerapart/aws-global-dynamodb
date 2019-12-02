@@ -1,8 +1,11 @@
 {
-  "name": "aws-global-dynamodb",
-  "version": "1.0.4",
+  "name": "@engineerapart/aws-global-dynamodb",
+  "version": "0.3.0",
   "description": "Deploy Global DynamoDB tables with ease via serverless components.",
   "main": "serverless.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -17,7 +20,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "@serverless/aws-dynamodb": "git+https://github.com/danielcondemarin/aws-dynamodb.git#global-tables-supported",
+    "@serverless/aws-dynamodb": "git+https://github.com/barrysteyn/aws-dynamodb.git#global-tables-supported-with-indexes_barry-branch",
     "@serverless/core": "^1.0.0",
     "ramda": "^0.26.1"
   }
